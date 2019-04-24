@@ -13,9 +13,6 @@ if((u-v)==0 || (u-v)<0)
 end
 v=u;
 
-
-
-
-    out=y;
+ out=y;
     
  end 
