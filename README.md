@@ -11,10 +11,11 @@ The model uses a controller to identify the vehicle's motion and accordingly sel
 This is shown in the following 2 submodels:
 
 
+![MODEL-1](https://user-images.githubusercontent.com/49238787/56644827-1b44c800-669a-11e9-9e2a-8673a9d9a2bd.PNG)
 
 The above picture shows that part of the model which sends real time current readings of the motor to workspace. 
 
 
 ![model-2](https://user-images.githubusercontent.com/49238787/56644837-20097c00-669a-11e9-848c-71656f5db561.PNG)
 
-The above picture invloves making use of the current readings from the workspace into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).
+This picture shows how current readings from the workspace are sent into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).
