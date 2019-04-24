@@ -15,6 +15,6 @@ This is shown in the following 2 submodels:
 The above picture shows that part of the model which sends real time current readings of the motor to workspace. 
 
 
-![MODEL-1](https://user-images.githubusercontent.com/49238787/56643185-c05da180-6696-11e9-92a1-985d6a56484e.PNG)
+
 
 The above picture invloves making use of the current readings from the workspace into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).
