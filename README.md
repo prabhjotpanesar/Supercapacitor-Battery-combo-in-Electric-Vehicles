@@ -18,4 +18,4 @@ The above picture shows that part of the model which sends real time current rea
 
 ![model-2](https://user-images.githubusercontent.com/49238787/56644837-20097c00-669a-11e9-848c-71656f5db561.PNG)
 
-This picture shows how current readings from the workspace are sent into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).
+This picture shows how current readings from the workspace are sent into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).In order to identify the nature of motion a delay has been used to select current values at different instants of time for comparison.
