@@ -8,8 +8,13 @@ The project involves a matlab simulation of an electric vehicle being alternativ
 # Matlab Simulation Model
 
 The model uses a controller to identify the vehicle's motion and accordingly selects the battery or the supercapacitor. During periods of acceleration the supercapacitor runs the motor whereas during periods of constant motion or deceleration the battery drives the motor.
-This is shown in the following two models:
+This is shown in the following 2 submodels:
 
 
-  ![MODEL-1](https://user-images.githubusercontent.com/49238787/56643185-c05da180-6696-11e9-92a1-985d6a56484e.PNG)
 
+The above picture shows that part of the model which sends real time current readings of the motor to workspace. 
+
+
+![MODEL-1](https://user-images.githubusercontent.com/49238787/56643185-c05da180-6696-11e9-92a1-985d6a56484e.PNG)
+
+The above picture invloves making use of the current readings from the workspace into the matlab processor to identify the nature of motion of the vehicle and accordingly instruct the power sources (batteries & supercapacitotrs).
